@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="./settings.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="tab-bar">
+        <div class="tab">
+            <p style="font-weight: 100; font-size: 1em;">New Tab</p>
+            <p >x</p>
+        </div>
+        <p style="font-weight: 500; font-size: 2em; margin-left: 1%;">+</p>
+        <div class="tab-end">
+            <img src="./images/chevron-down.svg" alt="" style="width: 1.2em;">
+            <img src="./images/dash.svg" alt="" style="width: 1.5em;">
+            <img src="./images/files.svg" alt="" style="width: 0.9em;">
+            <img src="./images/x.svg" alt="" style="width: 1.5em">
+        </div>
+    </section>
+    <section class="search-main">
+        <div class="search-nav">
+            <a href="./index.html"><img src="./images/arrow-left-short.svg" alt="" style="width: 2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;"></a>
+            <img src="./images/arrow-right-short.svg" alt="" style="width: 2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+            <img src="./images/arrow-clockwise.svg" alt="" style="width: 1.2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+            <img src="./images/house.svg" alt="" style="width: 1.2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+        </div>
+        <div class="search">
+            <img src="./images/favicon.jpg" alt="" style="width: 2%; height: 100%;    border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;">
+            <input id="search-input" class="search-word" type="text">
+            <img src="./images/star.svg" alt="">
+        </div>
+        <div class="search-prof">
+            <img src="./images/layout-sidebar-inset.svg" alt="" style="width: 1.2em;">
+            <div class="prof">
+                <a href=""><p style="color: white; font-weight: bold;">O</p></a>
+            </div>
+            <a href="./settings.html"><img src="./images/three-dots-vertical.svg" alt="" style="width: 1.2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;"></a>
+        </div>
+    </section>
+    <section class="sub">
+        <div class="sub-left">
+            <img src="./images/browser-chrome.svg" alt="" style="width: 2em; margin-right: 5%;">
+            <h3 style="font-weight: bold; font-size: larger;">Settings</h3>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input id="search-input" class="search-input" type="text" placeholder="Search settings">
+        </div>
+    </section>
+    <section class="body">
+        <section class="side-nav">
+            <div class="item" id="first">
+                <img src="./images/person-fill.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">You and Google</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/card-text.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Autofill</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/sheild.png" alt="" style="margin-right: 5%; width: 1em;">
+                <h4><a href="">Privacy and security</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/palette-fill.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Appearance</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/search.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Search engine</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/calendar3-week.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Default browser</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/power.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">On startup</a></h4>
+            </div>
+            <hr>
+            <div class="item">
+                <img src="./images/globe.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Languages</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/download.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Downloads</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/universal-access.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Accesibility</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/wrench.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">System</a></h4>
+            </div>
+            <div class="item">
+                <img src="./images/arrow-repeat.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Reset and clean up</a></h4>
+            </div>
+            <hr>
+            <div class="item">
+                <img src="./images/patch-plus-fill.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">Extensions</a></h4>
+                <img src="./images/open_in_new.svg" alt="" style="margin-left: 5%;">
+            </div>
+            <div class="item">
+                <img src="./images/browser-chrome.svg" alt="" style="margin-right: 5%;">
+                <h4><a href="">About chrome</a></h4>
+            </div>
+        </section>
+        <section class="middle">
+            <h4 style="margin-bottom: 2%;">You and Google</h4>
+            <div class="middle-main">
+                <div class="middle-one">
+                    <div class="middle-prof">
+                        <h3 style="color: white; font-size: larger;">O</h3>
+                    </div>
+                    <div class="middle-name">
+                        <h5>Obadiah Gideon</h5>
+                        <p style="color: rgba(0, 0, 0, 0.5);">Syncing to Obadiahgideon@gmail.com</p>
+                    </div>
+                    <button class="btn">Turn off</button>
+                </div>
+                <hr>
+                <div class="middles">
+                    <p>Sync and Google services</p>
+                    <img src="./images/caret-right-fill.svg" alt="">
+                </div>
+                <hr>
+                <div class="middles">
+                    <p>Manage your Google Account</p>
+                    <img src="./images/open_in_new.svg" alt="">
+                </div>
+                <hr>
+               
+                <div class="middles">
+                    <p>Sync and Google services</p>
+                    <img src="./images/caret-right-fill.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

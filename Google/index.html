@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="./images/favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script defer src="./main.js"></script>
+    <script>
+        function set() {
+            document.getElementById("check").style.display = "block"
+        }
+    </script>
+</head>
+<body>
+    <section class="tab-bar">
+        <div class="tab">
+            <p style="font-weight: 100; font-size: 1em;">New Tab</p>
+            <p>x</p>
+        </div>
+        <p style="font-weight: 500; font-size: 2em; margin-left: 1%;">+</p>
+        <div class="tab-end">
+            <img src="./images/chevron-down.svg" alt="" style="width: 1.2em;">
+            <img src="./images/dash.svg" alt="" style="width: 1.5em;">
+            <img src="./images/files.svg" alt="" style="width: 0.9em;">
+            <img src="./images/x.svg" alt="" style="width: 1.5em">
+        </div>
+    </section>
+    <section class="search-main">
+        <div class="search-nav">
+            <img src="./images/arrow-left-short.svg" alt="" style="width: 2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+            <img src="./images/arrow-right-short.svg" alt="" style="width: 2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+            <img src="./images/arrow-clockwise.svg" alt="" style="width: 1.2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+            <img src="./images/house.svg" alt="" style="width: 1.2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+        </div>
+        <div class="search">
+            <img src="./images/favicon.jpg" alt="" style="width: 2%; height: 100%;    border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;">
+            <input id="search-input" class="search-word" type="text">
+            <img src="./images/star.svg" alt="">
+        </div>
+        <div class="search-prof">
+            <img src="./images/layout-sidebar-inset.svg" alt="" style="width: 1.2em;">
+            <div class="call">
+                <a href=""><p style="color: white; font-weight: bold;">O</p></a>
+            </div>
+            <a href="./settings.html"><img src="./images/three-dots-vertical.svg" alt="" style="width: 1.2em; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;"></a>
+        </div>
+    </section>
+    <!-- <div class="check" id="check">
+        <p>Settings</p>
+    </div> -->
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a class="link" href="">Gmail</a>
+                </li>
+                <li>
+                    <a class="link" href="">Images</a>
+                </li>
+                <li>
+                    <div class="circle-shadow">
+                        <a class="menu-icon" href=""><i class="fa fa-th"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle-shadow">
+                        <a class="user-icon" href=""><span>O</span></a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <section class="content-section">
+        <div class="content-wrapper">
+            <img class="logo-img" src="./images/logo.jpg" alt="Google Logo Image">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <a href="./search.html"><input id="search-input" class="search-input" type="text"></a>
+                <i class="fas fa-keyboard"></i>
+                <i class="fas fa-microphone"></i>
+            </div>
+            <div class="search-btns">
+                <button class="google-search-btn">Google Search</button>
+                <button class="lucky-search-btn">I'm Feeling Lucky</button>
+            </div>
+            <div class="language">
+                <p>Google Offered in: <a href="">Hausa</a> <a href="">Igbo</a> <a href="">Èdè Yorùbá</a> <a href="">Nigerian Pidgin</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content upper-footer">
+            <p>Nigeria</p>
+        </div>
+        <div class="footer-content lower-footer">
+            <ul class="lower-left-footer">
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Advertising</a>
+                </li>
+                <li>
+                    <a href="">Business</a>
+                </li>
+                <li>
+                    <a href="">How Search Works</a>
+                </li>
+            </ul>
+            <ul class="lower-right-footer">
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+                <li>
+                    <a href="">Terms</a>
+                </li>
+                <li>
+                    <a href="">Settings</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
